@@ -84,6 +84,7 @@ jobs:
 matrix:
     allow_failures:
       - php: 7.1
+        dist: trusty
         env:
             - TYPE=phpunit
             - DB=mariadb
