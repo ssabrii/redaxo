@@ -21,7 +21,6 @@ before_install:
 jobs:
     include:
         -   php: 7.1
-            dist: trusty
             env: TYPE=linting
             services:
                 - mysql
