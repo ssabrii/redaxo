@@ -61,6 +61,10 @@ jobs:
                 - DB=mariadb
             addons:
                 mariadb: 10.1
+                apt:
+                  packages:
+                  - mariadb-client-10.1
+                  - mariadb-server-core-10.1
         -   <<: *TEST
             php: 7.3
             addons:
