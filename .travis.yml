@@ -1,6 +1,6 @@
 language: php
 
-dist: xenial
+dist: trusty
 
 git:
     depth: 3
